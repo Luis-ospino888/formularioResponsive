@@ -17,6 +17,23 @@
     margin-bottom: 20px;
     box-shadow:0 0 10px 0;
 }
+#linkLogin{
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+#linkLogin a #parrafoALogin{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+}
+#linkLogin a #parrafoALogin:hover{
+    font-size: 20px;
+}
 #contenedor{
     width: 100%;
 }
@@ -39,10 +56,11 @@ main form #nombreFormRegistro, #emailFormRegistro, #passwordFormRegistro, #boton
     border-radius: 10px;
     transition: all 0.25s;
     cursor: pointer;
+    width: 100%;
 }
 #botonFormRegistro:hover{
     background-color: rgb(70, 70, 70);
-    color: whitesmoke;
+    font-size: 20px;
 }
 #rol{
     display: flex;
